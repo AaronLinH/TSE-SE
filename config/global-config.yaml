@@ -33,7 +33,7 @@ snsTopics:
         - aarolinh@amazon.com # <----- UPDATE EMAIL ADDRESS
     - name: SecurityMedium
       emailAddresses:
-        - y-medium>@example.com # <----- UPDATE EMAIL ADDRESS
+        - aarolinh@amazon.com # <----- UPDATE EMAIL ADDRESS
     - name: SecurityLow
       emailAddresses:
         - aarolinh@amazon.com # <----- UPDATE EMAIL ADDRESS
