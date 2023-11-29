@@ -17,7 +17,7 @@ enabledRegions:
   # - "us-east-2"
   # - "us-west-1"
   # - "us-west-2"
-managementAccountAccessRole: OrganizationAccountAccessRole # UPDATE: If using Control Tower, set to AWSControlTowerExecution
+managementAccountAccessRole: AWSControlTowerExecution # UPDATE: If using Control Tower, set to AWSControlTowerExecution
 cloudwatchLogRetentionInDays: 731
 terminationProtection: true
 cdkOptions:
@@ -41,7 +41,7 @@ snsTopics:
       emailAddresses:
         - aarolinh@amazon.com # <----- UPDATE EMAIL ADDRESS
 controlTower:
-  enable: false # UPDATE if using Control Tower, set to true
+  enable: true # UPDATE if using Control Tower, set to true
 logging:
   account: LogArchive
   cloudtrail:
