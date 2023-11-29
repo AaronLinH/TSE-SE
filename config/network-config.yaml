@@ -1,5 +1,4 @@
 homeRegion: &HOME_REGION us-west-2
-policySets:
 defaultVpc:
   delete: true
   excludeAccounts: []
